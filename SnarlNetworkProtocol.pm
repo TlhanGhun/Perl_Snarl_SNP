@@ -12,11 +12,10 @@ use Carp;
 # Nathan McFarland - (http://nmcfarl.org)
 # by Sven Walther (http://tlhan-ghun.de/)
 
+# this file needs to be saved in UTF-8 in order to support special chars
+
 our @ISA    = qw(Exporter);
-our @EXPORT = ( 'register', 'addClass', 'notification', 'unregister' );
-
-
-my $snarlHost = "localhost";
+our @EXPORT = ( 'register', 'addClass', 'notification', 'unregister' );my $snarlHost = "localhost";
 my $snarlPort = 9887;
 my $snarlAppName = "";
 
